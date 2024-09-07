@@ -1,0 +1,161 @@
+/* إعادة تعيين بعض الأنماط الأساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* تنسيق الهيدر */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background: #444;
+}
+
+/* تنسيق قسم البانر */
+.banner {
+    background: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* تنسيق قسم المنتجات */
+.products {
+    margin: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* تنسيق قسم العروض اليومية */
+.daily-offers, .reviews, .discounts {
+    margin: 20px;
+}
+
+.offer-grid, .review-grid, .discount-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.offer-item, .review-item, .discount-item {
+    background: white;
+    padding
+}/* تنسيق قسم التواصل */
+.contact {
+    background: #4CAF50; /* لون خلفية جديد */
+    color: white; /* لون النص */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-details {
+    margin: 10px 0;
+}
+
+.phone-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links li a {
+    color: white; /* لون الروابط */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links li a:hover {
+    text-decoration: underline; /* تأثير عند التمرير */
+}
